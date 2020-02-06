@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "nikhil",
+      "lastName": "nikhil",
+      "email": "nikhil@initbit.in",
+      "age": 22,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "sagar",
+      "lastName": "sagar",
+      "email": "sagar@initbit.in",
+      "age": 24,
+      "companyId": "2"
+    },
+    {
+      "id": "3",
+      "firstName": "bharat",
+      "lastName": "bharat",
+      "email": "bharat@initbit.in",
+      "age": 26,
+      "companyId": "1"
+    }
+  ],
+  "company": [
+    {
+      "id": "1",
+      "name": "init",
+      "description": "wakad"
+    },
+    {
+      "id": "2",
+      "name": "tcs",
+      "description": "hinjewadi"
+    },
+    {
+      "name": "infosys",
+      "description": "hinjewadi phase 1",
+      "id": "Xy_Kx2B"
+    }
+  ]
+}
