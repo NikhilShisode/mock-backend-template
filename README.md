@@ -1,13 +1,11 @@
-# api and operations
-
+# api endpoints and operations
 /api/near-miss
-GET response-
-
+- <span style="color:green">**GET**</span>
 ```
 {
-      "id": "1",
+      "id": "1", 
       "type": "Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
+      "natureOfAction": "Rubber seal was temporary repaired",
       "dueDate": "08/21/2018",
       "responsibility": "Cheif officer",
       "status": "/",
@@ -16,8 +14,7 @@ GET response-
 ```
 
 /api/incident
-GET response-
-
+- <span style="color:green">**GET**</span>
 ```
 {
       "id": "07-2020",
@@ -33,8 +30,7 @@ GET response-
 ```
 
 /api/notification
-GET response-
-
+- <span style="color:green">**GET**</span>
 ```
 {
     "id": "01887262222",
