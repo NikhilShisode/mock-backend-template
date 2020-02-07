@@ -1,45 +1,156 @@
 {
-  "users": [
+  "near-miss": [
     {
       "id": "1",
-      "firstName": "nikhil",
-      "lastName": "nikhil",
-      "email": "nikhil@initbit.in",
-      "age": 22,
-      "companyId": "1"
+      "type": "Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
     },
     {
       "id": "2",
-      "firstName": "sagar",
-      "lastName": "sagar",
-      "email": "sagar@initbit.in",
-      "age": 24,
-      "companyId": "2"
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "07/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
     },
     {
       "id": "3",
-      "firstName": "bharat",
-      "lastName": "bharat",
-      "email": "bharat@initbit.in",
-      "age": 26,
-      "companyId": "1"
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "4",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "5",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "6",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "7",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "8",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "9",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "10",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
+    },
+    {
+      "id": "11",
+      "type": "Immediate Action",
+      "natureOfAction": "Rubber seal waas temporary repaired",
+      "dueDate": "08/21/2018",
+      "responsibility": "Cheif officer",
+      "status": "/",
+      "dateCompleted": "08/21/2018"
     }
   ],
-  "company": [
+  "incident": [
     {
-      "id": "1",
-      "name": "init",
-      "description": "wakad"
+      "id": "07-2020",
+      "securityLevel": "Major",
+      "type": "Injury",
+      "vessel": "Vessel 4",
+      "date": "12 jan 2020",
+      "taskInvolved": "Cargo Operation - Loading",
+      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
+      "impactOn": "Personal",
+      "status": "Closed"
     },
     {
-      "id": "2",
-      "name": "tcs",
-      "description": "hinjewadi"
+      "id": "08-2020",
+      "securityLevel": "Major",
+      "type": "Collision",
+      "vessel": "Vessel 4",
+      "date": "12 jan 2020",
+      "taskInvolved": "Cargo Operation - Loading",
+      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
+      "impactOn": "Personal",
+      "status": "Closed"
     },
     {
-      "name": "infosys",
-      "description": "hinjewadi phase 1",
-      "id": "Xy_Kx2B"
+      "id": "09-2020",
+      "securityLevel": "Major",
+      "type": "Eqpt. Failure",
+      "vessel": "Vessel 4",
+      "date": "12 jan 2020",
+      "taskInvolved": "Cargo Operation - Loading",
+      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
+      "impactOn": "Personal",
+      "status": "Closed"
+    }
+  ],
+  "notification": [
+    {
+      "id": "01887262222",
+      "title": "Injury During Lifeboat Launching",
+      "lesson": "Lifeboat hooks if not properly set after a drill or actual use can lead to an incident. All vessels should ensure that after securing up of lifeboats the hooks are checked",
+      "lessonType": "Procedure",
+      "deficiencyGroup": "5 - Safety",
+      "targetGroup": "All Crew"
+    },
+    {
+      "id": "01887262111",
+      "title": "Injury During Lifeboat Launching",
+      "lesson": "Lifeboat hooks if not properly set after a drill or actual use can lead to an incident. All vessels should ensure that after securing up of lifeboats the hooks are checked",
+      "lessonType": "Training",
+      "deficiencyGroup": "4 - Navigation",
+      "targetGroup": "Deck Officer"
     }
   ]
 }
