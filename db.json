@@ -1,156 +1,45 @@
 {
-  "near-miss": [
+  "bugs": [
     {
-      "id": "1",
-      "type": "Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "id": 1,
+      "description": "Bug 1",
+      "userId": 1,
+      "resolved": true
     },
     {
-      "id": "2",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "07/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "id": 2,
+      "description": "Bug 2",
+      "userId": 1,
+      "resolved": true
     },
     {
-      "id": "3",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "description": "new bug",
+      "id": 9,
+      "resolved": true
     },
     {
-      "id": "4",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "description": "latest bug",
+      "id": 10
     },
     {
-      "id": "5",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "description": "toast test",
+      "id": 11
     },
     {
-      "id": "6",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
-    },
-    {
-      "id": "7",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
-    },
-    {
-      "id": "8",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
-    },
-    {
-      "id": "9",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
-    },
-    {
-      "id": "10",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
-    },
-    {
-      "id": "11",
-      "type": "Immediate Action",
-      "natureOfAction": "Rubber seal waas temporary repaired",
-      "dueDate": "08/21/2018",
-      "responsibility": "Cheif officer",
-      "status": "/",
-      "dateCompleted": "08/21/2018"
+      "description": "toast test 2",
+      "id": 12
     }
   ],
-  "incident": [
+  "users": [
     {
-      "id": "07-2020",
-      "securityLevel": "Major",
-      "type": "Injury",
-      "vessel": "Vessel 4",
-      "date": "12 jan 2020",
-      "taskInvolved": "Cargo Operation - Loading",
-      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
-      "impactOn": "Personal",
-      "status": "Closed"
-    },
-    {
-      "id": "08-2020",
-      "securityLevel": "Major",
-      "type": "Collision",
-      "vessel": "Vessel 4",
-      "date": "12 jan 2020",
-      "taskInvolved": "Cargo Operation - Loading",
-      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
-      "impactOn": "Personal",
-      "status": "Closed"
-    },
-    {
-      "id": "09-2020",
-      "securityLevel": "Major",
-      "type": "Eqpt. Failure",
-      "vessel": "Vessel 4",
-      "date": "12 jan 2020",
-      "taskInvolved": "Cargo Operation - Loading",
-      "description": "During the loading of a Toxic Cargo it was seen that the duty AB was not wearing suitable PPE",
-      "impactOn": "Personal",
-      "status": "Closed"
+      "id": 1,
+      "name": "Nik"
     }
   ],
-  "notification": [
+  "projects": [
     {
-      "id": "01887262222",
-      "title": "Injury During Lifeboat Launching",
-      "lesson": "Lifeboat hooks if not properly set after a drill or actual use can lead to an incident. All vessels should ensure that after securing up of lifeboats the hooks are checked",
-      "lessonType": "Procedure",
-      "deficiencyGroup": "5 - Safety",
-      "targetGroup": "All Crew"
-    },
-    {
-      "id": "01887262111",
-      "title": "Injury During Lifeboat Launching",
-      "lesson": "Lifeboat hooks if not properly set after a drill or actual use can lead to an incident. All vessels should ensure that after securing up of lifeboats the hooks are checked",
-      "lessonType": "Training",
-      "deficiencyGroup": "4 - Navigation",
-      "targetGroup": "Deck Officer"
+      "id": 1,
+      "name": "Project 3"
     }
   ]
 }
